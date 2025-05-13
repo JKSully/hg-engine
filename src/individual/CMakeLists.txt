@@ -1,0 +1,18 @@
+target_sources(${PROJECT_NAME} PRIVATE
+    "BattleController_BeforeMove.c"
+    "BattleController_MoveEnd.c"
+    "BattleFormChangeCheck.c"
+    "BattleSystem_BufferMessage.c"
+    "btl_scr_cmd_33_statbuffchange.c"
+    "CalcBaseDamage.c"
+    "CalculateBallShakes.c"
+    "CheckDefenderItemEffectOnHit.c"
+    "GetMonEvolutionBattle.c"
+    "getMonEvolutionInternal.c"
+    "MoveHitDefenderAbilityCheck.c"
+    "ServerBeforeAct.c"
+    "ServerDoPostMoveEffects.c"
+    "ServerFieldConditionCheck.c"
+    "ServerHPCalc.c"
+    "SwitchInAbilityCheck.c"
+)

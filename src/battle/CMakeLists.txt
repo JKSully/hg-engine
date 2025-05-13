@@ -1,0 +1,15 @@
+target_sources(${PROJECT_NAME} PRIVATE 
+    "ability.c"
+    "ai.c"
+    "anim.c"
+    "battle_calc_damage.c"
+    "battle_controller_player.c"
+    "battle_input.c"
+    "battle_item.c"
+    "battle_pokemon.c"
+    "battle_script_commands.c"
+    "battle_start.c"
+    "mega.c"
+    "other_battle_calculators.c"
+    "weather.c"
+)
